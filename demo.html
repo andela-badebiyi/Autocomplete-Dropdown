@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stuff</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="crossorigin="anonymous"></script>
+  <script type="text/javascript" src="bd-autocomplete.js"></script>
+  <link rel="stylesheet" type="text/css" href="bd-autocomplete.css">
+</head>
+<body>
+  <div class="custom-autocomplete">
+    <input type="text" value="">
+  </div>
+</body>
+<script>
+    myAutoComplete('.custom-autocomplete').initialize({
+        data: {
+            '1234': 'Funso Alakija',
+            '2345': 'Kemi Pedro',
+            '5586': 'Tayo Bello',
+            '2232': 'Tamoja Beatrice'
+        }
+    });
+</script>
+</html>

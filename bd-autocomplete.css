@@ -1,0 +1,54 @@
+input {
+  width: 14rem;
+}
+.bd-dd-list {
+  position: absolute;
+  height: 10rem;
+  box-shadow: 1px 1px 1px 1px #ddd;
+  margin: 0;
+  overflow: scroll;
+  margin-top: 4px;
+}
+
+.bd-input-add-on {
+  transition: opacity 0.2s ease-in;
+}
+
+.bd-input-add-on:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.bd-input-add-on img {
+  transition: transform 0.3s ease-in;
+}
+
+/*.bd-dd-wrapper img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}*/
+.point-down {
+  transform: rotate(-360deg);
+}
+.point-up {
+  transform: rotate(-180deg);
+}
+.bd-dd-list li {
+  list-style: none;
+  padding: 5px;
+}
+.bd-dd-list li:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+.bd-dd-wrapper {
+  padding: 1rem 1rem;
+  border: 1px solid #ccc;
+  max-width: 400px;
+  width: 100%;
+}
+.bd-dd-wrapper input, .bd-dd-wrapper input:focus {
+  border: none;
+  width: 100%;
+  outline: none;
+}
